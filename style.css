@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 100px;
+}
+
+#message {
+    font-size: 24px;
+}
+
+#report {
+    font-size: 18px;
+    margin-top: 20px;
+}
