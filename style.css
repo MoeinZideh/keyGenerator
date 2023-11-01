@@ -1,14 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Sans:wght@400;600;700&family=Poppins:wght@200;300;400&display=swap');
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 100px;
+    font-family: Poppins, Lato, Georgia, Times, 'Times New Roman', serif;
+}
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6D46D;
 }
 
+
 #message {
-    font-size: 24px;
+    font-size: 34px;
+    color: #db6f2b;
+    font-weight: bold;
 }
 
 #report {
-    font-size: 18px;
+    color: #9A4444;
+    font-size: 28px;
     margin-top: 20px;
 }
